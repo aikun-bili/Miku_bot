@@ -1,0 +1,1 @@
+var t="/next/assets/title-BdxO_BrW.png";export{t};

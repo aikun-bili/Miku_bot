@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/x-icon" href="/next/favicon.ico"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="referrer" content="no-referrer"/>
+    <title>MikuBot 管理后台</title>
+  <script type="module" crossorigin src="/next/assets/index-DwfasqRA.js"></script>
+  <link rel="modulepreload" crossorigin href="/next/assets/rolldown-runtime-CJ_koDw0.js">
+  <link rel="modulepreload" crossorigin href="/next/assets/.pnpm/@ctrl_tinycolor@4.2.0/node_modules/@ctrl/tinycolor/dist/module-fDkXgpzk.js">
+  <link rel="modulepreload" crossorigin href="/next/assets/.pnpm/async-validator@4.2.5/node_modules/async-validator/dist-web-BkQNFntf.js">
+  <link rel="modulepreload" crossorigin href="/next/assets/.pnpm/dayjs@1.11.20/node_modules/dayjs-B9k_rOJI.js">
+  <link rel="modulepreload" crossorigin href="/next/assets/.pnpm/dayjs@1.11.20/node_modules/dayjs/plugin-CGGirSSc.js">
+  <link rel="modulepreload" crossorigin href="/next/assets/.pnpm/lodash-es@4.17.23/node_modules/lodash-es-Dou8v8Pc.js">
+  <link rel="modulepreload" crossorigin href="/next/assets/.pnpm/memoize-one@6.0.0/node_modules/memoize-one/dist-Cr2gF0GZ.js">
+  <link rel="modulepreload" crossorigin href="/next/assets/vendor_element-CKEsGhaW.js">
+  <link rel="modulepreload" crossorigin href="/next/assets/Confetti-BQQ1Zbhu.js">
+  <link rel="modulepreload" crossorigin href="/next/assets/.pnpm/gsap@3.14.2/node_modules/gsap-DQ72BWrP.js">
+  <link rel="modulepreload" crossorigin href="/next/assets/.pnpm/@kurkle_color@0.3.4/node_modules/@kurkle/color/dist-BLo1Yv9-.js">
+  <link rel="modulepreload" crossorigin href="/next/assets/.pnpm/chart.js@4.5.1/node_modules/chart.js/dist-CxTiemzA.js">
+  <link rel="modulepreload" crossorigin href="/next/assets/vendor_vue-Ch7k0QLQ.js">
+  <link rel="modulepreload" crossorigin href="/next/assets/router-DOSFCgTp.js">
+  <link rel="modulepreload" crossorigin href="/next/assets/.pnpm/axios@1.15.0/node_modules/axios/lib-D06ZOAQg.js">
+  <link rel="modulepreload" crossorigin href="/next/assets/websocket-logs-Dt6wfGNA.js">
+  <link rel="modulepreload" crossorigin href="/next/assets/api-next-DX1Sz0B7.js">
+  <link rel="stylesheet" crossorigin href="/next/assets/vendor_element-D8ibP1Ji.css">
+  <link rel="stylesheet" crossorigin href="/next/assets/router-CyP0Lm8R.css">
+  <link rel="stylesheet" crossorigin href="/next/assets/index-Bm2tKUAj.css">
+</head>
+<body>
+<div id="app"></div>
+<script>
+  // 兼容旧缓存：侧边栏 Logo 统一指向新文件名，避免浏览器继续使用旧图
+  (function () {
+    var LOGO = "/next/assets/logo-miku.png";
+    function fix() {
+      var img = document.querySelector('img[alt="Logo"]');
+      if (img && img.getAttribute("src") !== LOGO) img.setAttribute("src", LOGO);
+    }
+    new MutationObserver(fix).observe(document.documentElement, { childList: true, subtree: true });
+    document.addEventListener("DOMContentLoaded", fix);
+    window.addEventListener("load", fix);
+  })();
+</script>
+</body>
+</html>

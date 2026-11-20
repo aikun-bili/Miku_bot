@@ -2,7 +2,7 @@
 
 日志目录：<项目根>/logs/ai_requests/ai_YYYY-MM-DD.log
 格式：
-2026-10-31 21:30:00 用户(761695424)：晚上好
+2026-10-31 21:30:00 用户(10001)：晚上好
 thinking: （无）
 输出: 晚上好呀～
 time: 2.31s | platform=本地Qwen3-VL model=qwen3-vl:2b-instruct-gpu24

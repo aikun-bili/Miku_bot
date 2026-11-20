@@ -39,7 +39,7 @@ _disable_quick_edit_mode()
 
 
 # ═══════════════════════════════════════════════════════════════
-# 🔵 日志系统（参考 真寻bot 风格 + NoneBot 默认格式）
+# 🔵 日志系统（参考 ミク 风格 + NoneBot 默认格式）
 #    全程使用 ANSI 转义码，避免 loguru 标记嵌套解析问题
 # ═══════════════════════════════════════════════════════════════
 
@@ -657,7 +657,7 @@ if __name__ == "__main__":
 
     # Web 管理后台（挂载到同一个端口）
     try:
-        import utils.webui
+        import utils.webui_new  # noqa: F401
     except Exception as e:
         logger.warning(f"WebUI 加载失败: {e}")
 

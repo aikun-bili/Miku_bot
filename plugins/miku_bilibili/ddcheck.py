@@ -1,7 +1,7 @@
 """
 成分姬子模块（原 miku_ddcheck 独立插件，2026-10-03 并入 miku_bilibili）
 ====================================================================
-基于 nonebot-plugin-ddcheck / zhenxun-nonebot-plugin-ddcheck 重构：
+基于 ddcheck 系列插件重构：
 
 - 命令：查成分 <B站用户名/UID>
 - 凭证：复用本插件统一凭证存储（config/bot.yaml -> bilibili_credential）

@@ -241,12 +241,6 @@ register_ai_action(
 **安全约定**：只有显式注册的动作 AI 才看得到；参数按定义清洗（未声明丢弃、超长截断、枚举校验）；
 花钱/破坏性动作必须 `confirm=True`；管理类动作（重启/更新/广播/禁言/踢人/退群）不注册。
 
-### 验证
-
-```bash
-PYTHONIOENCODING=utf-8 .venv/Scripts/python.exe temp_test/test_ai_router.py
-```
-
 ---
 
 ## 可用指令

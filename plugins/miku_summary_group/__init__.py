@@ -1,4 +1,4 @@
-"""Miku 群聊总结：基于 zhenxun_plugin_summary_group 功能适配 MikuBot。"""
+"""Miku 群聊总结：基于群聊总结插件适配 MikuBot。"""
 
 import asyncio
 import re

@@ -1,9 +1,9 @@
 """
 Miku 涩图 (send_setu 适配版)
 ============================
-基于 zhenxun_bot 的 send_setu 插件重构，适配 MikuBot 架构：
+基于 send_setu 插件重构，适配 MikuBot 架构：
 
-- 网络：用 httpx 替代 Zhenxun 的 AsyncHttpx（异步优先）
+- 网络：用 httpx 替代原实现中的 AsyncHttpx（异步优先）
 - 数据源：source=lolicon（默认，api.lolicon.app 国内直连，无需账号/token）
           source=pixiv（走代理的 Pixiv App API 搜索，需 refresh_token，
           注意 pixiv 对 Cloudflare Workers 出口 IP 有 WAF 封锁，目前不可用）
